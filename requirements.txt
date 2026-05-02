@@ -1,0 +1,19 @@
+# ============================================================
+# Evolve Agent — CS5381 Analysis of Algorithms
+# Python dependencies
+# ============================================================
+
+# ── Core (required) ─────────────────────────────────────────
+streamlit>=1.35.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+google-generativeai>=0.7.0
+
+# ── Optional: Vector DB acceleration ────────────────────────
+# Install these for FAISS-backed VDB (faster at scale).
+# If unavailable, the app automatically uses a list-based VDB.
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+
+# ── Utility ─────────────────────────────────────────────────
+python-dotenv>=1.0.0
